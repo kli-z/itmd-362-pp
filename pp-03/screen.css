@@ -12,10 +12,21 @@ form {
   border: 0.41em solid #111;
   display: inline-block;
   margin-top: 1em;
-  padding-left: 0.512em;
+  padding: 0.262em 0.512em 0 0.512em;
   text-align: left;
   width: 90%;
 }
+label {
+  float: left;
+  height: 100%;
+}
 input {
+  float: right;
   width: 40%;
+}
+label,input {
+}
+section {
+  display: inline-block;
+  width: 100%;
 }
